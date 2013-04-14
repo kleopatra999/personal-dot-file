@@ -53,4 +53,6 @@ set autoindent
 set guifont=ConsolasForPowerline:h14i
 " let twitvim_login = "zhufenggood:88438021"
 :filetype plugin on
-:au FocusLost * :wa
+":au FocusLost * :wa
+autocmd BufLeave,FocusLost silent! wall
+"disable message when temp file is saving 

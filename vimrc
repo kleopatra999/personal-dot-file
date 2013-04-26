@@ -5,6 +5,8 @@ call vundle#rc()
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'msanders/snipmate.vim'
 Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-fugitive'
+Bundle 'mileszs/ack.vim'
 
 filetype plugin indent on 
 
@@ -54,5 +56,5 @@ set guifont=ConsolasForPowerline:h14i
 " let twitvim_login = "zhufenggood:88438021"
 :filetype plugin on
 ":au FocusLost * :wa
-autocmd BufLeave,FocusLost silent! wall
+autocmd BufLeave,FocusLost * silent! wall
 "disable message when temp file is saving 

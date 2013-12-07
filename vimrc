@@ -53,7 +53,7 @@ set tabstop=2
 set nu
 set autoindent
 set guifont=ConsolasForPowerline:h14i
-" let twitvim_login = "zhufenggood:88438021"
+" let twitvim_login = ""
 :filetype plugin on
 ":au FocusLost * :wa
 autocmd BufLeave,FocusLost * silent! wall

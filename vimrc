@@ -58,3 +58,9 @@ set guifont=ConsolasForPowerline:h14i
 ":au FocusLost * :wa
 autocmd BufLeave,FocusLost * silent! wall
 "disable message when temp file is saving 
+
+autocmd! BufEnter,BufNewFile *.rb colo railscasts
+autocmd! BufLeave *.rb colo Github
+
+autocmd! BufEnter,BufNewFile *.coffee colo TronLegacy
+autocmd! BufLeave *.coffee colo Github

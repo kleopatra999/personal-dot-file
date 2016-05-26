@@ -1,0 +1,4 @@
+#!/bin/bash
+java -server -Xmx6200m -XX:MaxDirectMemorySize=6400m -XX:MaxHeapFreeRatio=40 -XX:MinHeapFreeRatio=15 -XX:+UseParallelGC -XX:+UseParallelOldGC -XX:+UseAdaptiveSizePolicy -XX:+UsePSAdaptiveSurvivorSizePolicy -XX:+ResizeTLAB -XX:+DoEscapeAnalysis -XX:+AdjustConcurrency -XX:+UseThreadPriorities -XX:+AggressiveOpts -XX:+UseFastAccessorMethods -cp "./Azureus2.jar:./swt.jar" -Djava.library.path="/home/zhufenggood/Desktop/vuze" -Dazureus.install.path="/home/zhufenggood/Desktop/vuze" -Dazureus.script="/home/zhufenggood/Desktop/vuze/azureus" -Dazureus.script.version=5 org.gudy.azureus2.ui.swt.Main 
+#file:/home/zhufenggood/Desktop/vuze/Azureus2.jar ; file:/home/zhufenggood/Desktop/vuze/swt.jar ; file:/home/zhufenggood/Desktop/vuze/
+

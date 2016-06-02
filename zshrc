@@ -89,7 +89,7 @@ alias gaon="export HTTP_PROXY=http://127.0.0.1:8087 && export HTTPS_PROXY=http:/
 alias gaoff="export HTTP_PROXY= && export HTTPS_PROXY= "
 alias goa="sudo python ~/Desktop/goagent-3.0/local/proxy.py"
 alias vuz="/home/zhufenggood/Desktop/vuze/azureus"
-alias suf="sudo mount -t cifs //10.0.1.1/DATASVAE -o username=zhufenggood,password=88438021,sec=ntlm /mnt"
+alias suf="sudo mount -t cifs //10.0.1.1/DATASVAE -o username=zhufenggood,password=111111,sec=ntlm /mnt"
 alias ydd="gaon; youtube-dl"
 alias noturbo="echo "1" | sudo tee /sys/devices/system/cpu/intel_pstate/no_turbo"
 alias f20="echo "20" | sudo tee /sys/devices/system/cpu/intel_pstate/max_perf_pct"

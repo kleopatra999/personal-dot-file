@@ -104,3 +104,8 @@ alias ff80="f80;noturbo"
 alias ff100="f100;echo "0" | sudo tee /sys/devices/system/cpu/intel_pstate/no_turbo"
 export WEBIDE_JDK=/usr/lib/jvm/java-7-openjdk-amd64
 #export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+alias ara="aria2c -x16 -c"
+alias araq="aria2c -x16 -j1 -Z -c"
+alias encaa="sudo enca -L zh -x UTF-8"
+alias gd1="git clone --depth=1"
+alias update-youtube-dl="sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl;sudo chmod a+rx /usr/local/bin/youtube-dl"
